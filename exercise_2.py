@@ -6,4 +6,5 @@
 
 word = input('Enter a string: ')
 word_2 = input('Enter another string: ')
-print(word_2.startswith(word))
+print('First string inside of second string: ' + str(word_2.startswith(word)))
+print('Second string inside of first string: ' + str(word.startswith(word_2)))
